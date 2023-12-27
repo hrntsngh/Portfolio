@@ -32,13 +32,12 @@ const Exp = () => {
             date="2023 - present"
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Coding Ninjas</h3>
-            <h4 className="vertical-timeline-element-subtitle">
-              Teaching Assistant
-            </h4>
+            <h3 className="vertical-timeline-element-title">Testing Data</h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
-              Solved doubts of hundreds of students related to data structures &
-              algorithms
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque efficitur auctor eros, quis malesuada odio blandit
+              vitae.
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
@@ -48,13 +47,12 @@ const Exp = () => {
             date="2023 - present"
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">
-              Creative Director
-            </h3>
-            <h4 className="vertical-timeline-element-subtitle">Miami, FL</h4>
+            <h3 className="vertical-timeline-element-title">Testing</h3>
+            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
             <p>
-              Creative Direction, User Experience, Visual Design, Project
-              Management, Team Leading
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque efficitur auctor eros, quis malesuada odio blandit
+              vitae.
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>
