@@ -5,8 +5,12 @@ import Exp from "./Experience/Exp.jsx";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 import NavBar from "./home/NavBar/NavBar";
+import { useEffect } from "react";
 // import Motion from "./Motion.jsx";
 function App() {
+  useEffect(() => {
+    alert("Under Development");
+  }, []);
   return (
     <>
       <div className="App">
