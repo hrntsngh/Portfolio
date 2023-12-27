@@ -14,7 +14,7 @@ const Projects = () => {
       </div> */}
       <div className="box">
         <div className="image">
-          <img src="src\assets\CuFoodz.png" alt="" />
+          <img src="assets\CuFoodz.png" alt="" />
         </div>
         <p>February - march, 2023</p>
         <h5>
