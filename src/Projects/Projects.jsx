@@ -1,4 +1,5 @@
 import React from "react";
+import CUFOODZ from "../assets/CuFoodz.png";
 import "./Projects.css";
 
 const Projects = () => {
@@ -14,7 +15,7 @@ const Projects = () => {
       </div> */}
       <div className="box">
         <div className="image">
-          <img src="assets\CuFoodz.png" alt="" />
+          <img src={CUFOODZ} alt="" />
         </div>
         <p>February - march, 2023</p>
         <h5>
@@ -24,7 +25,7 @@ const Projects = () => {
       </div>
       <div className="box">
         <div className="image">
-          <img src="src\assets\CuFoodz.png" alt="" />
+          <img src={CUFOODZ} alt="" />
         </div>
         <p>February - march, 2023</p>
         <h5>
@@ -34,7 +35,7 @@ const Projects = () => {
       </div>
       <div className="box">
         <div className="image">
-          <img src="src\assets\CuFoodz.png" alt="" />
+          <img src={CUFOODZ} alt="" />
         </div>
         <p>February - march, 2023</p>
         <h5>
