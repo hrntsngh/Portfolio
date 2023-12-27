@@ -1,0 +1,29 @@
+#main {
+  position: relative;
+  background-image: url(1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* .middle > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 60%;
+}
+
+.middle {
+  text-align: center;
+  top: 40%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+} */

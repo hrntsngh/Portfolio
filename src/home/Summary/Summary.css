@@ -1,0 +1,36 @@
+.Summary {
+  text-align: center;
+  position: relative;
+  margin: auto 10px;
+}
+.Summary > img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+.Summary > h1 {
+  font-family: "Urbanist", "Noto Sans KR", sans-serif;
+  font-size: 2rem;
+  line-height: 2;
+}
+br {
+  display: none;
+}
+.Summary > h3 {
+  font-family: "Urbanist", "Noto Sans KR", sans-serif;
+  font-size: 1.3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .Summary > h1 {
+    font-size: 1.8rem;
+  }
+  .Summary > h3 {
+    font-size: 1.1rem;
+  }
+  br {
+    display: inline;
+  }
+}

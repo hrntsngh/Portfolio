@@ -1,0 +1,32 @@
+#mainn {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  bottom: 0px;
+}
+
+#loop {
+  display: flex;
+  font-size: 15px;
+  white-space: nowrap;
+  gap: 10px;
+}
+
+#loop > h1 {
+  letter-spacing: 2px;
+  font-family: "Urbanist", "Noto Sans KR", sans-serif;
+  font-weight: 400;
+  animation-name: anim;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
