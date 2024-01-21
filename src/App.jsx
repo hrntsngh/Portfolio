@@ -5,20 +5,21 @@ import Exp from "./Experience/Exp.jsx";
 import Skills from "./Skills/Skills";
 import Contact from "./Contact/Contact";
 import NavBar from "./home/NavBar/NavBar";
+import About from "./About/About";
 import { useEffect } from "react";
 // import Motion from "./Motion.jsx";
+
 function App() {
   useEffect(() => {
     alert("Under Development, Click OK to Continue");
   }, []);
+
   return (
     <>
-      <div className="App">
-        <NavBar></NavBar>
-        <Home />
-        <Project />
-      </div>
-
+      <NavBar></NavBar>
+      <Home />
+      <About />
+      <Project />
       <Exp />
       <Skills />
       <Contact />

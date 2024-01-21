@@ -1,0 +1,61 @@
+#About {
+  position: relative;
+
+  background: #000;
+  padding: 100px 10px 0px 10px;
+  margin: 0;
+  color: lightgray;
+}
+#About > h1 {
+  --font_0: normal normal normal 63px/1.4em lulo-clean-w01-one-bold,
+    lulo-clean-w05-one-bold, sans-serif;
+  font: var(--font_0);
+  letter-spacing: 5px;
+  font-size: 7rem;
+  text-align: center;
+  margin-bottom: 50px;
+  background-image: linear-gradient(
+    81.02deg,
+    #fa5560 -23.47%,
+    #b14bf4 45.52%,
+    #4d91ff 114.8%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#About > p {
+  font-family: "Urbanist", sans-serif;
+  margin: 0 15%;
+  font-size: 1.3rem;
+  text-align: justify;
+  line-height: 1.5;
+  z-index: 9;
+}
+
+#About > p > .greetings {
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+#About > p > .state {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 500px) {
+  #About > h1 {
+    font-size: 3rem;
+  }
+  #About > p {
+    margin: 0 5%;
+    font-size: 1rem;
+  }
+
+  #About > p > .greetings {
+    font-size: 1.5rem;
+  }
+
+  #About > p > .state {
+    font-size: 1.25rem;
+  }
+}
