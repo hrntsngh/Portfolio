@@ -1,5 +1,5 @@
 #Contact {
-  background-color: #000;
+  background: linear-gradient(to top, black, #120918);
   color: #fff;
   padding: 100px 0;
   font-family: "Noto Sans", sans-serif;
@@ -32,12 +32,13 @@
   justify-content: space-between;
   width: 60%;
   align-items: center;
-  box-shadow: 0px 0px 8px 2px #222;
   overflow: hidden;
+  border-radius: 20px;
+  border: 1px solid #222;
 }
 
 .contact > img {
-  height: 35rem;
+  height: 35.5rem;
   /* width: 40%; */
   object-fit: cover;
   /* padding: 10px; */
@@ -85,7 +86,7 @@ textarea {
 input,
 textarea {
   border-radius: 10px;
-  color: #6e6868;
+  color: #fff;
   background: none;
   border: 1px solid #222;
   outline: none;
@@ -115,7 +116,7 @@ textarea::placeholder {
 @media screen and (max-width: 500px) {
   .contact {
     width: 100%;
-    box-shadow: none;
+    border: none;
   }
   .ContactDetails {
     padding: 10px;

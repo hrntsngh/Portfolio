@@ -22,7 +22,7 @@ const Contact = () => {
               <p>Chandigarh University, Mohali</p>
             </div>
           </div>
-          <form action="submit">
+          <form action="mailto:hrntsnghhh@gmail.com" method="post">
             <input
               type="text"
               name="Name"

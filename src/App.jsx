@@ -10,9 +10,9 @@ import { useEffect } from "react";
 // import Motion from "./Motion.jsx";
 
 function App() {
-  useEffect(() => {
-    alert("Under Development, Click OK to Continue");
-  }, []);
+  // useEffect(() => {
+  //   alert("Under Development, Click OK to Continue");
+  // }, []);
 
   return (
     <>

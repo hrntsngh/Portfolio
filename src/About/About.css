@@ -1,7 +1,7 @@
 #About {
   position: relative;
 
-  background: #000;
+  background: linear-gradient(to bottom, black, #120918);
   padding: 100px 10px 0px 10px;
   margin: 0;
   color: lightgray;

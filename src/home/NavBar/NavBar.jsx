@@ -192,10 +192,10 @@ const NavBar = () => {
         </div>
       </div>
       <div className="NavBar-icons">
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-github"></i>
-        <i class="fa-brands fa-linkedin"></i>
-        <i class="fa-brands fa-twitter"></i>
+        <i className="fa-brands fa-instagram"></i>
+        <i className="fa-brands fa-github"></i>
+        <i className="fa-brands fa-linkedin"></i>
+        <i className="fa-brands fa-twitter"></i>
       </div>
       <div className="optionButton" onClick={clicked}>
         <motion.div

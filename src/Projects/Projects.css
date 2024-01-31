@@ -81,7 +81,7 @@
 .image > img {
   height: 250px;
   width: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
   border-radius: 10px;
   margin-bottom: 10px;
   border-bottom-left-radius: 0px;
@@ -109,7 +109,11 @@
   background: transparent;
   border: 1px solid #222;
   color: gold;
+  text-align: center;
+  text-decoration: none;
   padding: 15px;
+  font-size: medium;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .visit-button:hover {

@@ -4,11 +4,15 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Tilt from "react-parallax-tilt";
 import "./Exp.css";
 import { motion } from "framer-motion";
+import CNlogo from "../assets/CNlogo.png";
 
-const WorkIcon = () => <></>;
+const WorkIcon = () => (
+  <div className="workIcon">
+    <img src={CNlogo} alt="" />
+  </div>
+);
 const Exp = () => {
   return (
     <div id="Experience">
@@ -25,22 +29,23 @@ const Exp = () => {
       <div className="verticalTimeline">
         <VerticalTimeline>
           <VerticalTimelineElement
-            // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
             contentArrowStyle={{
               borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
             }}
             date="2023 - present"
             icon={<WorkIcon />}
           >
-            <h3 className="vertical-timeline-element-title">Testing Data</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
+            <h3 className="vertical-timeline-element-title">Coding Ninjas</h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Teaching Assistant
+            </h4>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Pellentesque efficitur auctor eros, quis malesuada odio blandit
               vitae.
             </p>
           </VerticalTimelineElement>
-          <VerticalTimelineElement
+          {/* <VerticalTimelineElement
             contentArrowStyle={{
               borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
             }}
@@ -54,7 +59,7 @@ const Exp = () => {
               Pellentesque efficitur auctor eros, quis malesuada odio blandit
               vitae.
             </p>
-          </VerticalTimelineElement>
+          </VerticalTimelineElement> */}
         </VerticalTimeline>
       </div>
     </div>
