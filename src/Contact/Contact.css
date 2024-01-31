@@ -10,6 +10,7 @@
     lulo-clean-w05-one-bold, sans-serif;
   font: var(--font_0);
   font-size: 2.5rem;
+  font-weight: 700;
   margin: auto;
   margin-bottom: 20px;
   text-align: center;
@@ -106,7 +107,7 @@ textarea::placeholder {
   display: flex;
   flex-direction: column;
   gap: 15px;
-  align-items: center;
+  /* align-items: center; */
 }
 @media screen and (max-width: 1200px) {
   .contact > img {

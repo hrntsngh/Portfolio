@@ -255,6 +255,7 @@ const NavBar = () => {
         <a href="#About" onClick={clicked}>
           About
         </a>
+
         <a href="#project" onClick={clicked}>
           Projects
         </a>

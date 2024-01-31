@@ -1,0 +1,30 @@
+#footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  border: 1px solid #222;
+  padding: 50px 0 0 0;
+  font-family: sans-serif;
+}
+.footer_top {
+  line-height: 2;
+}
+.footer_top > p {
+  font-size: 1rem;
+}
+
+.footer_top > h6 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
+  font-size: 0.875rem;
+  line-height: 8;
+}
+
+.animate {
+  display: flex;
+  justify-content: center;
+}
+
+.animate1 {
+  margin-right: 12px;
+}

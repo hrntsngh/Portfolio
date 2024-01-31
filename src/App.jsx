@@ -7,6 +7,7 @@ import Contact from "./Contact/Contact";
 import NavBar from "./home/NavBar/NavBar";
 import About from "./About/About";
 import { useEffect } from "react";
+import Footer from "./Footer/Footer.jsx";
 // import Motion from "./Motion.jsx";
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
       <Exp />
       <Skills />
       <Contact />
+      <Footer />
       {/* <Motion /> */}
     </>
   );
