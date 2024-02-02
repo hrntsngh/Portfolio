@@ -33,6 +33,7 @@ const Projects = () => {
             whileInView={{ scale: 1 }}
             whileHover={{ scale: 0.9 }}
             viewport={{ once: true }}
+            transition={{ ease: "linear" }}
             src={JuststayIn}
             alt=""
           />

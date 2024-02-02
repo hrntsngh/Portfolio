@@ -45,7 +45,7 @@ const Exp = () => {
               vitae.
             </p>
           </VerticalTimelineElement>
-          {/* <VerticalTimelineElement
+          <VerticalTimelineElement
             contentArrowStyle={{
               borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
             }}
@@ -59,7 +59,7 @@ const Exp = () => {
               Pellentesque efficitur auctor eros, quis malesuada odio blandit
               vitae.
             </p>
-          </VerticalTimelineElement> */}
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>

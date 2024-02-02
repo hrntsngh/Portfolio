@@ -25,7 +25,7 @@
   margin: auto 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 700px) {
   #project > h1 {
     font-size: 3rem;
   }

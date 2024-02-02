@@ -79,12 +79,14 @@
   box-shadow: 0px 0px 8px greenyellow;
 }
 
+@media screen and (max-width: 700px) {
+  #Skills > h1 {
+    font-size: 3.5rem;
+  }
+}
 @media screen and (max-width: 500px) {
   #Skills {
     padding-top: 50px;
-  }
-  #Skills > h1 {
-    font-size: 3rem;
   }
   .skillBox {
     gap: 30px;

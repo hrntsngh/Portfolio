@@ -7,22 +7,22 @@ const Footer = () => {
     <div id="footer">
       <div className="footer_top">
         <div className="animate">
-          <motion.h1
+          <motion.h2
             initial={{ opacity: 0, zIndex: 1 }}
             whileInView={{ opacity: 1 }}
             className="animate1"
           >
             ਅਸਤਾਦ
-          </motion.h1>
+          </motion.h2>
 
-          <motion.h1
+          <motion.h2
             initial={{ x: "-100px", zIndex: -1 }}
             whileInView={{ x: 0, zIndex: 1 }}
             transition={{ delay: 0.2 }}
             className="animate2"
           >
             | ASTAAD
-          </motion.h1>
+          </motion.h2>
         </div>
         <motion.p
           initial={{ opacity: 0 }}
