@@ -247,9 +247,7 @@ const NavBar = () => {
       <motion.div
         className="dropDownMenu"
         animate={
-          click
-            ? { height: "100%", display: "flex" }
-            : { height: "0px", display: "none" }
+          click ? { height: "100%", display: "flex" } : { height: "0px" }
         }
       >
         <a href="#About" onClick={clicked}>
