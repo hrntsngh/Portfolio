@@ -25,6 +25,7 @@ const Projects = () => {
         <a
           className="visit-button"
           href="https://drive.google.com/file/d/1WCvlxqvyCg8M6tc6T5xlnLK128cgnaWs/view?usp=sharing"
+          target="_blank"
         >
           Visit
         </a>
@@ -48,6 +49,7 @@ const Projects = () => {
         <a
           className="visit-button"
           href="https://github.com/hrntsngh/Hotel-Booking-Website-Front-End-"
+          target="_blank"
         >
           Visit
         </a>
