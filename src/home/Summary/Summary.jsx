@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+
 import "./Summary.css";
 
 const Summary = () => {
@@ -10,7 +11,7 @@ const Summary = () => {
   });
   return (
     <div className="Summary">
-      <motion.img src="src\home\Summary\PP.jpg" alt="" />
+      <motion.img src="./PP.jpg" alt="" />
       <h1 className="divide">
         <span>{text}</span>
         <Cursor />,
