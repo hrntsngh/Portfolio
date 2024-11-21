@@ -40,24 +40,19 @@ const Exp = () => {
               Teaching Assistant
             </h4>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur auctor eros, quis malesuada odio blandit
-              vitae.
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            contentArrowStyle={{
-              borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
-            }}
-            date="2023 - present"
-            icon={<WorkIcon />}
-          >
-            <h3 className="vertical-timeline-element-title">Testing</h3>
-            <h4 className="vertical-timeline-element-subtitle">Remote</h4>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-              Pellentesque efficitur auctor eros, quis malesuada odio blandit
-              vitae.
+              <ul>
+                <li>
+                  Mentored over 200 students in Data Structures and Algorithms
+                  (DSA).
+                </li>
+                <li>
+                  Achieved a rating of 4.92 out of 5, with 90% 5-star ratings.
+                </li>
+                <li>
+                  Provided personalized assistance to students in solving DSA
+                  problems, fostering a deeper understanding of concepts.
+                </li>
+              </ul>
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

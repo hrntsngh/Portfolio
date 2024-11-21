@@ -22,7 +22,10 @@ const Projects = () => {
         <h5>
           <span>CUFOODZ</span> - A FOOD DELIVERY WEB-APPLICATION
         </h5>
-        <a className="visit-button" href="https://cufoodz.com">
+        <a
+          className="visit-button"
+          href="https://drive.google.com/file/d/1WCvlxqvyCg8M6tc6T5xlnLK128cgnaWs/view?usp=sharing"
+        >
           Visit
         </a>
       </div>
@@ -42,7 +45,10 @@ const Projects = () => {
         <h5>
           <span>JUST STAYIN</span> - A HOTEL BOOKING WEB-APPLICATION
         </h5>
-        <a className="visit-button" href="https://cufoodz.com">
+        <a
+          className="visit-button"
+          href="https://github.com/hrntsngh/Hotel-Booking-Website-Front-End-"
+        >
           Visit
         </a>
       </div>

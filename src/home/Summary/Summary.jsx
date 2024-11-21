@@ -10,16 +10,13 @@ const Summary = () => {
   });
   return (
     <div className="Summary">
-      <motion.img
-        src="https://filmfare.wwmindia.com/thumb/content/2022/may/sidhumoosewalafacts41653884597.jpg?width=1200&height=900"
-        alt=""
-      />
+      <motion.img src="src\home\Summary\PP.jpg" alt="" />
       <h1 className="divide">
         <span>{text}</span>
         <Cursor />,
         <br /> I'm Harneet Singh Kahlon
       </h1>
-      <h3>FULL STACK DEVELOPER</h3>
+      <h3>FULL STACK DEVELOPER - MERN</h3>
     </div>
   );
 };

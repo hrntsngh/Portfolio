@@ -24,13 +24,13 @@ const Footer = () => {
             | ASTAAD
           </motion.h2>
         </div>
-        <motion.p
+        {/* <motion.p
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3 }}
         >
           #JusticeForSIDHUMOOSEWALA
-        </motion.p>
+        </motion.p> */}
         <h6>© 2024 Harneet Singh Kahlon. All rights reserved</h6>
       </div>
     </div>
