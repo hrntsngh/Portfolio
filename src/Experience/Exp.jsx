@@ -7,10 +7,16 @@ import "react-vertical-timeline-component/style.min.css";
 import "./Exp.css";
 import { motion } from "framer-motion";
 import CNlogo from "../assets/CNlogo.png";
+import TCS from "../assets/TCS.png";
 
-const WorkIcon = () => (
+const WorkIcon1 = () => (
   <div className="workIcon">
     <img src={CNlogo} alt="" />
+  </div>
+);
+const WorkIcon2 = () => (
+  <div className="workIcon">
+    <img src={TCS} alt="" />
   </div>
 );
 const Exp = () => {
@@ -32,8 +38,8 @@ const Exp = () => {
             contentArrowStyle={{
               borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
             }}
-            date="2023 - present"
-            icon={<WorkIcon />}
+            date="January' 24 - April' 24 "
+            icon={<WorkIcon1 />}
           >
             <h3 className="vertical-timeline-element-title">Coding Ninjas</h3>
             <h4 className="vertical-timeline-element-subtitle">
@@ -59,8 +65,8 @@ const Exp = () => {
             contentArrowStyle={{
               borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
             }}
-            date="2023 - present"
-            icon={<WorkIcon />}
+            date="March' 25 - April' 25"
+            icon={<WorkIcon2 />}
           >
             <h3 className="vertical-timeline-element-title">
               Tata Consultancy Services Limited
@@ -82,7 +88,7 @@ const Exp = () => {
                 </li>
                 <li>
                   Delivered high-quality code with a 99% approval rate and
-                  achieved 100% code coverage for error replication files.
+                  achieved 100% code coverage for error replication files.
                 </li>
               </ul>
             </p>
