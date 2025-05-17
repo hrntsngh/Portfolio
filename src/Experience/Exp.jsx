@@ -55,6 +55,38 @@ const Exp = () => {
               </ul>
             </p>
           </VerticalTimelineElement>
+          <VerticalTimelineElement
+            contentArrowStyle={{
+              borderRight: "7px solid  rgba(20, 20, 65, 0.493)",
+            }}
+            date="2023 - present"
+            icon={<WorkIcon />}
+          >
+            <h3 className="vertical-timeline-element-title">
+              Tata Consultancy Services Limited
+            </h3>
+            <h4 className="vertical-timeline-element-subtitle">
+              Project Intern
+            </h4>
+            <p>
+              <ul>
+                <li>
+                  Built AWS CDK code to replicate error scenarios and
+                  implemented prompt engineering solutions to enhance model
+                  training.
+                </li>
+                <li>
+                  Optimized scripts for training and deploying AI models,
+                  improving efficiency and scalability using AWS services like
+                  S3, DynamoDB, EC2, ECS, and Lambda.
+                </li>
+                <li>
+                  Delivered high-quality code with a 99% approval rate and
+                  achieved 100% code coverage for error replication files.
+                </li>
+              </ul>
+            </p>
+          </VerticalTimelineElement>
         </VerticalTimeline>
       </div>
     </div>
